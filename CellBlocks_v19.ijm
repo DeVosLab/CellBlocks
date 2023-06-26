@@ -1564,7 +1564,7 @@ function segmentRegions(id, mid, c, iterations){
 		selectImage(vid); close;
 		selectWindow("Result of voronoi");
 		if(!is("Inverting LUT"))run("Invert LUT");
-		run("Invert");
+		//run("Invert");
 		vid = getImageID;
 		selectImage(vid);
 		rename("Cell_ROI");
