@@ -2845,7 +2845,7 @@ function summarizeResults()
 					setResult("Spot_SC"+spots_b_channel+"_"+resultLabels[s]+"_MeanPerNuc",r,nvalues[r]/nnumber[r]);
 					if(segment_cells)
 					{
-						setResult("Spot_SC"+spots_b_channel+"_NrPerCell",r,cnumber[indices[r]]);
+						setResult("Spot_SC"+spots_b_channel+"_NrPerCell",r,cnumber[r]);
 						setResult("Spot_SC"+spots_b_channel+"_"+resultLabels[s]+"_SumPerCell",r,cvalues[r]);
 						setResult("Spot_SC"+spots_b_channel+"_"+resultLabels[s]+"_MeanPerCell",r,cvalues[r]/cnumber[r]);
 					}
