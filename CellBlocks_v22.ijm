@@ -77,6 +77,7 @@
  	+ rewrite exclude nucleus section: merge nuc+cytoplasm=cell -> sort roiManager -> XOR if cell>nuc  (v21 - 220724 - Marlies Verschuuren)
  	+ harmonized definition of fixed threshold applied to multi-scale spot detection (v21b - 031024 - Marlies Verschuuren)
  	+ add "microns" identifier to check for calibration (v22 - 031224 - Marlies Verschuuren)
+ 	+ fix bug spotdetection "indices" not found (v22 - 111224 - Marlies Verschuuren)
  	_________________________________________________________________
 */
 
@@ -2901,7 +2902,7 @@ function summarizeResults()
 					setResult("Fold_SC"+folds_channel+"_"+resultLabels[s]+"_MeanPerNuc",r,nvalues[r]/nnumber[r]);
 					if(segment_cells)
 					{
-						setResult("Fold_SC"+folds_channel+"_NrPerCell",r,cnumber[indices[r]]);
+						setResult("Fold_SC"+folds_channel+"_NrPerCell",r,cnumber[r]);
 						setResult("Fold_SC"+folds_channel+"_"+resultLabels[s]+"_SumPerCell",r,cvalues[r]);
 						setResult("Fold_SC"+folds_channel+"_"+resultLabels[s]+"_MeanPerCell",r,cvalues[r]/cnumber[r]);
 					}
