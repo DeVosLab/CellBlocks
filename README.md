@@ -1,5 +1,5 @@
 # CellBlocks
-ImageJ/Fiji macro set dedicated to in silico cytometric decomposition analysis. Flexible high content analysis to measure descriptive features about cell and nucleus as well as intracellular objects. Demands a nuclear channel to facilitate segmentation of individual nuclei and conditional expansion to segment cellular regions of influence. A variety of visualization and correction tools is available. 
+ImageJ/Fiji macro set dedicated to in silico cytometric decomposition analysis. Flexible high content analysis to measure descriptive features about cell and nucleus as well as intracellular objects. Demands a nuclear channel to facilitate segmentation of individual nuclei and conditional expansion to segment cellular regions of influence. A variety of visualization and correction tools is available.   
 
 ### Citation
 Please cite these papers if you are using this script in your research:
