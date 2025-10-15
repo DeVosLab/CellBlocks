@@ -1,5 +1,4 @@
 {
-    "description":"ImageJ/Fiji macro set dedicated to in silico cytometric decomposition analysis. Flexible high content analysis to measure descriptive features about cell and nucleus as well as intracellular objects. Demands a nuclear channel to facilitate segmentation of individual nuclei and conditional expansion to segment cellular regions of influence. A variety of visualization and correction tools is available.",
     "creators": [
         {
             "orcid": "0000-0003-0357-7422",
@@ -15,6 +14,11 @@
     "related_identifiers": [
         {
             "identifier": "https://doi.org/10.1002/cyto.a.20807",
+            "relation": "isSupplementTo",
+            "resource_type": "publication-article"
+        },
+        {
+            "identifier": "https://doi.org/10.1002/jemt.22799",
             "relation": "isSupplementTo",
             "resource_type": "publication-article"
         }
